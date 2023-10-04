@@ -1,0 +1,12 @@
+@startuml
+    !startsub Personal
+        class Personal {
+            - CI: String
+            - nombre: String
+            - apellidos: String
+            - direccion: String
+            - experiencia: String
+
+        }
+    !endsub
+@enduml

@@ -1,0 +1,11 @@
+@startuml Fabrica
+    skinparam classAttributeIconSize 0
+    !includesub /pedido.puml!Pedido
+    !includesub /maquina.puml!Maquina
+    !includesub user_manager/cliente.puml!Cliente
+    !includesub user_manager/personal.puml!Personal
+
+    Cliente "0..*" -- "0..*" Pedido
+    Pedido "0..*" -- "1..*" Personal
+    Personal "1..*" -- "*" Maquina
+@enduml

@@ -1,0 +1,18 @@
+@startuml
+    !startsub Cliente
+        class Cliente {
+            - CI: String
+            - nombre: String
+            - apellidos: String
+            - sexo: String
+            - direccion: String
+            - intoleranciaAlimentos: String
+            + buscarDatosCliente():void
+            + obtenerClienteOrdenadosUrgencia():List<Cliente>
+            + agregarCliente(paciente: Cliente): void
+            + eliminarCliente(CI: String): void
+            + modificarCliente(CI: String, cliente: Cliente): void
+
+        }
+    !endsub
+@enduml

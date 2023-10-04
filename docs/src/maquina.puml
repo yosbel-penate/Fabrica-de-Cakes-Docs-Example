@@ -1,0 +1,10 @@
+@startuml MaquinalClass
+    !startsub Maquina
+        class Maquina{
+            -capacidad: int
+            -tiempo: double
+            -calidadProducto: String
+
+        }
+    !endsub
+@enduml

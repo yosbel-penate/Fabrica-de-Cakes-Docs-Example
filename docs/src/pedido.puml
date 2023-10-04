@@ -1,0 +1,11 @@
+@startuml
+    !startsub Pedido
+        class Pedido{
+            -capas: int
+            -sabor: String
+            -tamaño: double
+            -decoracion: String
+            -sugerencias: String
+        }
+    !endsub
+@enduml
